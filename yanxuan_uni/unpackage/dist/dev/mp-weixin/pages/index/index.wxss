@@ -1,0 +1,61 @@
+.indexContainer .indexHeader {
+  display: flex;
+  padding: 10rpx 0;
+}
+.indexContainer .indexHeader .logo {
+  width: 140rpx;
+  height: 40rpx;
+  padding: 10rpx 30rpx;
+}
+.indexContainer .indexHeader .search {
+  position: relative;
+  width: 420rpx;
+  height: 60rpx;
+  background-color: #eee;
+}
+.indexContainer .indexHeader .search input {
+  width: 370rpx;
+  height: 60rpx;
+  padding-left: 50rpx;
+}
+.indexContainer .indexHeader .search input .placeholder {
+  font-size: 26rpx;
+}
+.indexContainer .indexHeader .search .iconfont {
+  position: absolute;
+  top: 15rpx;
+  left: 10rpx;
+  font-size: 30rpx;
+  color: #f00;
+}
+.indexContainer .indexHeader button {
+  width: 144rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 24rpx;
+  padding: 0 4rpx;
+  margin: 0 10rpx;
+  color: #bb2c08;
+}
+.indexContainer .navContainer {
+  display: flex;
+  border-bottom: none;
+  white-space: nowrap;
+}
+.indexContainer .navContainer .navItem {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 140rpx;
+  height: 80rpx;
+  font-size: 26rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+.indexContainer .navContainer .navItem.active {
+  border-bottom: 1rpx solid #bb2c08;
+}
+.test {
+  font-size: 0;
+}
+

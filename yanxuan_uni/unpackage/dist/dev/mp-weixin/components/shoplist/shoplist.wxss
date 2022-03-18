@@ -1,0 +1,29 @@
+.shopListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+/* 解决最后一行只有一个元素的时候不能靠左布局 */
+}
+.shopListContainer::after {
+  content: "";
+  width: 345rpx;
+  height: 0;
+}
+.shopListContainer .shopListItem {
+  width: 345rpx;
+  display: flex;
+  flex-direction: column;
+}
+.shopListContainer .shopListItem image {
+  width: 100%;
+  height: 345rpx;
+}
+.shopListContainer .shopListItem .goodName {
+  font-size: 24rpx;
+}
+.shopListContainer .shopListItem .goodPrice {
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #bb2c08;
+}
+

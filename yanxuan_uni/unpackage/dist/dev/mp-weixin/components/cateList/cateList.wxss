@@ -1,0 +1,21 @@
+.swiperItem {
+  width: 100%;
+  height: 370rpx;
+}
+.swiperItem image {
+  width: 100%;
+  height: 100%;
+}
+.cateDesc .cateDescTitle {
+  font-size: 34rpx;
+  line-height: 70rpx;
+  color: #333;
+  text-align: center;
+}
+.cateDesc .cateDescFrontName {
+  font-size: 24rpx;
+  line-height: 40rpx;
+  color: #999;
+  text-align: center;
+}
+
